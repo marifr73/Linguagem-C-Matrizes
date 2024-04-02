@@ -21,6 +21,22 @@ int main(){
 			scanf("%i", &b[i][j]);
 		}
 	}
+	//Exibir Matriz A
+		printf("\nMatriz A:\n");
+	for(i = 0; i < 2; i++){
+		for(j = 0; j < 3; j++){
+			printf("%i\t", a[i][j]);
+		}
+		printf("\n");
+	}
+	//Exibir Matriz B
+		printf("\nMatriz B:\n");
+	for(i = 0; i < 2; i++){
+		for(j = 0; j < 3; j++){
+			printf("%i\t", b[i][j]);
+		}
+		printf("\n");
+	}
 	//Laço para exibir a soma das matrizes A + B
 	printf("\nSoma das matrizes A e B:\n");
 	for(i = 0; i < 2; i++){
