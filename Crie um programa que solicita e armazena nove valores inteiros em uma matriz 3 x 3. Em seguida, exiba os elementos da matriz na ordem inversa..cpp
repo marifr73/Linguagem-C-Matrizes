@@ -6,7 +6,7 @@ int main(){
 	int i, j, x = 1, mat[3][3];
 	for(i = 0; i < 3; i++){
 		for(j = 0; j < 3; j++){
-			printf("Digite o %iº valor: ", x++);
+			printf("Digite o %iÂº valor: ", x++);
 			scanf("%i", &mat[i][j]);
 		}
 	}
