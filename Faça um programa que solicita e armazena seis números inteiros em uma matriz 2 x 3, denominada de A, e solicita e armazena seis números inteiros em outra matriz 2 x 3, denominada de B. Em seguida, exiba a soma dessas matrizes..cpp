@@ -6,13 +6,13 @@ int main(){
 	int a[2][3], b[2][3], x = 1, i, j, s[2][3];
 	for(i = 0; i < 2; i++){
 		for(j = 0; j < 3; j++){
-			printf("Digite o %iº valor: ", x++);
+			printf("Digite o %iÂº valor: ", x++);
 			scanf("%i", &a[i][j]);
 		}
 	}
 	for(i = 0; i < 2; i++){
 		for(j = 0; j < 3; j++){
-			printf("Digite o %iº valor: ", x++);
+			printf("Digite o %iÂº valor: ", x++);
 			scanf("%i", &b[i][j]);
 		}
 	}
