@@ -5,10 +5,10 @@ int main(){
 	setlocale(LC_ALL, "Portuguese");
 	int n, m;
 	
-	// Solicita o número de linhas e colunas da matriz
-	printf("Digite o número de linhas da matriz: ");
+	// Solicita o nÃºmero de linhas e colunas da matriz
+	printf("Digite o nÃºmero de linhas da matriz: ");
     scanf("%i", &n);
-    printf("Digite o número de colunas da matriz: ");
+    printf("Digite o nÃºmero de colunas da matriz: ");
     scanf("%i", &m);
     
     //Matriz A
@@ -16,7 +16,7 @@ int main(){
     int A[n][m], x = 1;
     for(int i = 0; i < n; i++){
 		for (int j = 0; j < m; j++){
-			printf("Digite o %iº valor: ", x++);
+			printf("Digite o %iÂº valor: ", x++);
             scanf("%i", &A[i][j]);
 		}
 		printf("\n");
