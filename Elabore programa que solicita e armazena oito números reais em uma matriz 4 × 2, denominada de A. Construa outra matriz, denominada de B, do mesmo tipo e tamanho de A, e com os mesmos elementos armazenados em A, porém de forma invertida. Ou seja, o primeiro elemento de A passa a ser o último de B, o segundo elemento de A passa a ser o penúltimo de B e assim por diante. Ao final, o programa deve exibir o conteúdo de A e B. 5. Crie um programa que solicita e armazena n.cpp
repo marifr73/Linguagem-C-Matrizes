@@ -8,15 +8,15 @@ int main(){
     int i, j, x = 1;
   	for(i = 0; i < 4; i++){
 		for(j = 0; j < 2; j++){
-			printf("Digite o %iº valor: ", x++);
+			printf("Digite o %iÂº valor: ", x++);
 			scanf("%f", &A[i][j]);
 		}
 	}
 	for(i = 0; i < 4; i++){
-        for(j = 0; j < 2; j++) {
+        	for(j = 0; j < 2; j++) {
             B[i][j] = A[3 - i][1 - j];
-        }
-    }
+        	}
+    	}
 	printf("\nMatriz A:\n");
     for (i = 0; i < 4; i++) {
         for (j = 0; j < 2; j++) {
