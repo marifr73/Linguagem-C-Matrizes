@@ -7,34 +7,40 @@ int main(){
 	
 	// Solicita o número de linhas e colunas da matriz
 	printf("Digite o número de linhas da matriz: ");
-    scanf("%i", &n);
-    printf("Digite o número de colunas da matriz: ");
-    scanf("%i", &m);
+    	scanf("%i", &n);
+    	printf("Digite o número de colunas da matriz: ");
+    	scanf("%i", &m);
     
-    //Matriz A
-    printf("\nMatriz A:\n");
-    int A[n][m], x = 1;
-    for(int i = 0; i < n; i++){
+    	//Matriz A
+    	printf("\nMatriz A:\n");
+    	int A[n][m], B[n][m], x = 1;
+    	for(int i = 0; i < n; i++){
 		for (int j = 0; j < m; j++){
 			printf("Digite o %iº valor: ", x++);
             scanf("%i", &A[i][j]);
 		}
-		printf("\n");
 	}
 	//Matriz B
-	int B[n][m];
-	 for (int i = 0; i < n; i++) {
-        for (int j = 0; j < m; j++) {
-            B[i][j] = A[i][j] * 3;
-        }
-    }
+	for (int i = 0; i < n; i++) {
+        	for (int j = 0; j < m; j++) {
+            	B[i][j] = A[i][j] * 3;
+        	}
+    	}
+    	// Imprimir a matriz A
+    	printf("\n\nMatriz A:\n");
+    	for (int i = 0; i < n; i++) {
+        	for (int j = 0; j < m; j++) {
+            	printf("%i ", A[i][j]);
+        	}
+        	printf("\n");
+    	}
 	// Imprimir a matriz B
-    printf("\nMatriz B:\n");
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < m; j++) {
-            printf("%i ", B[i][j]);
-        }
-        printf("\n");
-    }
+    	printf("\n\nMatriz B:\n");
+    	for (int i = 0; i < n; i++) {
+        	for (int j = 0; j < m; j++) {
+            	printf("%i ", B[i][j]);
+        	}
+        	printf("\n");
+    	}
 	return 0;
 }
